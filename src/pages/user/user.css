@@ -1,0 +1,24 @@
+.at-avatar{
+    margin-left:20px;
+    margin-top:50px;
+}
+.user-name{
+    line-height:200px;
+    color:white;
+}
+.user-info{
+    background:#32cd99;
+    height:200px;
+}
+.set{
+    line-height:200px;
+}
+.f-setting{
+    float:right;
+    margin-right:60px;
+}
+.setting{
+    width:56px;
+    height:56px;
+    vertical-align: middle;
+}

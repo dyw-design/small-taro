@@ -1,0 +1,97 @@
+.home{
+    padding:0 .62rem;
+  }
+  .slide_image{
+    display:block;
+    height:80%;
+    margin:0 auto;
+    border-radius:.4rem;
+ }
+ 
+ .item{
+   text-align:center;
+ }
+ .item-top{
+   padding:10px 0 0;
+ }
+ .movie-item image{
+   width:50px;
+   height:50px;
+ }
+ .item-des{
+   font:14px/2 "";
+ } 
+ .hot-movie-top{
+   overflow: hidden;
+   /* height:28px; */
+ }
+ .hot-play{
+   float:left;
+   font:28px/2 "";
+ }
+
+ .hot-movie-tickits{
+   float:right;
+   font-size:28px;
+   padding:0 10px;
+   margin-top:4px;
+   border:1px solid #ccc;
+   border-radius:12px;
+ }
+ .hot{
+   white-space:nowrap;
+   display:flex;
+   transition:.2s;
+   margin-bottom:20px;
+ }
+ ::-webkit-scrollbar{
+     width: 0;
+     height: 0;
+     color: transparent;
+ }
+ .view-parent{
+   display:inline-flex;
+   margin-right:20px;
+ }
+ .hot-movie{
+   width:200px;
+   display:flex;
+   align-items:center;
+   justify-content:center;
+   margin-right:20px;
+ }
+ .hot-movie-item{
+   display:block;
+ }
+ .hot-movie-item image{
+   width:200px;
+   height:300px;
+   display:block;
+ }
+ 
+ .movie-title{
+   font:28px/40px "";
+   overflow:hidden;
+   width:200px;
+   white-space: nowrap;
+   text-overflow: ellipsis;
+ }
+ 
+ .movie-rank{
+   font:24px/40px "";
+   width:180px;
+   border:1px solid #ccc;
+   color:#ccc;
+   text-align: center;
+ }
+ 
+ .buy-ticket{
+   width:80px;
+   height:40px;
+   background:#ff4090;
+   text-align:center;
+   font:28px/40px "";
+   border-radius:10px;
+   margin:5px auto 0;
+ }
+ 

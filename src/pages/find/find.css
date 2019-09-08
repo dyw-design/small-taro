@@ -1,0 +1,12 @@
+.week{
+   font:40px/100px "";
+   height:100px; 
+}
+.at-card__content{
+    padding:0;
+}
+.movie-average{
+    width:100%;
+    display:block;
+    height:240px;
+}

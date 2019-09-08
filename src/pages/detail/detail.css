@@ -1,0 +1,254 @@
+  .detail{
+    padding:0 0 64px;
+    position:relative;
+    background:#000;
+  }
+
+  .movie-pre{
+    height:360px;
+    background:green;
+    /* margin:0 0 10px; */
+  }
+  .bg-color{
+    border-radius:20px 20px 0 0;
+    padding:0 10px;
+    background:#fff;
+  }
+  .movie-detail{
+    padding:10px;
+  }
+  .movie-detail-top{
+    overflow:hidden;
+  }
+  .detail-image{
+    float:left;
+    width:200px;
+    margin-right:16px;
+  }
+  .detail-image image{
+    width:200px;
+    height:300px;
+  }
+  
+  .detail-des{
+    float:left;
+    width:440px;
+  }
+  .movie-title{
+    font:32px/2 "";
+  }
+  .movie-type-pianzhong{
+    font:28px/40px "";
+    color:#777;
+  }
+  .movie-playtime{
+    font:28px/40px "";
+    color:#777;
+  }
+  
+  .movie-want{
+    font:28px/40px "";
+    color:#777;
+  }
+  .movie-want image{
+    width:40px;
+    height:40px;
+  }
+  
+  .movie-detail-down{
+    overflow:hidden;
+  }
+  
+  .movie-grades{
+    float:left;
+  }
+  
+  .grades-top{
+    overflow:hidden;
+  }
+  .movie-number{
+    font:36px/2 "";
+    float:left;
+    font-weight:800;
+  }
+  .grades-top image{
+    margin-top:20px;
+    margin-left:10px;
+    width:200px;
+    height:36px;
+    float:left;
+    vertical-align: middle;
+  }
+  
+  .grades-down{
+    font:28px/40px "";
+    color:#777;
+  }
+  .all-xinxin{
+    float:right;
+  }
+  
+  .all-xinxin image{
+    width:300px;
+    height:120px;
+  }
+  .movie-menu{
+    display:flex;
+    justify-content:space-between;
+    font:28px/60px "";
+  }
+  .want{
+    text-align:center;
+    width:40%;
+    background:#f5f5f5;
+    border-radius: 15px;
+  }
+  .want image{
+    width:30px;
+    height:30px;
+    vertical-align: middle;
+    margin-right:12px;
+  }
+  .watched{
+    width:40%;
+    border-radius:15px;
+    text-align:center;
+    background:#f5f5f5;
+    overflow:hidden;
+  }
+  
+  .watched image{
+    width:30px;
+    height:30px;
+    vertical-align:middle;
+    margin-right:6px;
+  }
+  
+  .choose-tickit{
+    background:#ff4197;
+    width:100%;
+    position:fixed;
+    left:0;
+    bottom:0;
+    color:white;
+    text-align:center;
+    font:32px/100px "";
+  }
+  
+  .actors-title{
+    border-top:1px solid #f5f5f5;
+    font:32px/2 "";
+  }
+  
+  .actors-detail{
+    width:200px;
+  }
+  .actors-icon image{
+    width:200px;
+    height:300px;
+  }
+  
+  .actors-photos{
+      width:300px;
+  }
+  
+  .actors-photos image{
+    width:300px;
+    height:200px;
+  }
+  .comments-item{
+      margin-top:15px;
+      border-bottom:1px solid #f5f5f5;
+  }
+  .actors-name{
+    font:28px/40px "";
+    text-align:center;
+    text-overflow:ellipsis;
+    width:100%;
+    overflow:hidden;
+    white-space:nowrap;
+  }
+  
+  .actors-work{
+    font:24px/40px "";
+    text-align:center;
+    color:#777;
+  }
+  
+  .comments-head{
+    overflow: hidden;
+  }
+  
+  .comments-head-icon{
+    float:left;
+  }
+  .comments-head-icon image{
+    width:80px;
+    height:80px;
+  }
+  .comments-head-user{
+      float:left;
+      margin-left:10px;
+  }
+  .username{
+    font:28px/40px "";
+  }
+  .isbuy{
+    float:left;
+    border:1px solid #ff4197;
+    color:#ff4197;
+    font-size:28px;
+  }
+  .user-pingfen{
+    font-size:28px;
+  }
+  .user-pingfen image{
+    float:left;
+    width:200px;
+    height:40px;
+  }
+  .comments-content{
+    font-size:28px;
+    color:#777;
+  }
+  
+  .time{
+    overflow:hidden;
+    font:28px/40px "";
+  }
+  .time-left{
+    float:left;
+  }
+  
+  .zan{
+    float:right;
+  }
+  .zan image{
+    width:40px;
+    height:40px;
+    vertical-align: middle;
+  }
+  .msg{
+    float:right;
+  }
+  
+  .msg image{
+    vertical-align: middle;
+    width:40px;
+    height:40px;
+  }
+  
+  .hot{
+    white-space:nowrap;
+    display:flex;
+    transition:.2s; 
+  }
+  ::-webkit-scrollbar{
+      width: 0;
+      height: 0;
+      color: transparent;
+  }
+  .view-parent{
+    display:inline-flex;
+    margin-right:10px;
+  }
